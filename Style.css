@@ -5,17 +5,37 @@ body {
 
 *, *::after, *::before {
     box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
 }
 header {
     width: 100%;
     height: 76px;
     background-color: #ffff;
-    box-sizing: border-box;
+    border-bottom: 1px solid #f8E0FB;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
 }
 
 header img {
     width: 151px;
     height: 40px;
-    margin: 10px auto
+    margin-right: 32px;
+   /* margin: 18px auto; */
+}
+
+.menu__wrapper {
+    display: flex;
+}
+.menu__wrapper a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    margin-right: 32px;
+    white-space: nowrap;
+    opacity: 0.5;
 }
