@@ -39,3 +39,47 @@ header img {
     white-space: nowrap;
     opacity: 0.5;
 }
+
+/* section__sellNFt */
+
+
+.section__sellNft {
+    display: flex;
+    flex-flow: column;
+}
+
+.section__sellNFt h1 {
+    font-family: 'Syne';
+    text-align: center;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    color: #000000;
+    text-shadow: -5px 5px 0px #FFFFFF;
+    padding-top: 117px;
+    margin: 0 auto;
+
+}
+
+.section__sellNFt p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #532C59;
+    padding-top: 32px;
+}
+
+.section__sellNft button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 114px;
+    padding: 16px 20px;
+    background: #532C59;
+    border-radius: 15px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    font-family: 'Syne';
+    
+}
