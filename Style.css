@@ -46,6 +46,10 @@ header img {
 .section__sellNft {
     display: flex;
     flex-flow: column;
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+
 }
 
 .section__sellNFt h1 {
@@ -68,6 +72,7 @@ header img {
     text-align: center;
     color: #532C59;
     padding-top: 32px;
+    margin-bottom:32px;
 }
 
 .section__sellNft button {
@@ -81,5 +86,12 @@ header img {
     margin: 0 auto;
     color: #FFFFFF;
     font-family: 'Syne';
-    
+    font-weight: 700;
+    font-size: 16px;
+    line-height:20px;
+    white-space: nowrap;
+    cursor: pointer;
+    border: none;
+    outline: none;
+
 }
